@@ -42,7 +42,8 @@ Sistema web integral para la gestión de pacientes y atención odontológica, de
 
 1. **Clonar o ubicarse en la carpeta del proyecto:**
    ```powershell
-   cd C:\xampp\htdocs\gestion_muela
+   git clone https://github.com/AlexisCTjsjs/gestion_odon.git
+   cd C:\xampp\htdocs\gestion_odon
    ```
 
 2. **Crear o activar el entorno virtual:**
@@ -100,3 +101,10 @@ Para comprobar el correcto funcionamiento de los 7 modelos, el CRUD, las validac
 ```powershell
 .\.venv\Scripts\python.exe manage.py test apps
 ```
+
+---
+
+## 📌 Historial de Versiones
+- **v1.0**: Versión inicial del sistema de gestión odontológica con 7 modelos relacionales, operaciones CRUD completas, autenticación con sesiones persistentes y reportes con impresión/PDF.
+- **v1.1**: Completitud y optimización de dependencias (`Django`, `mysqlclient`, `python-dotenv`, `whitenoise`) y resolución de compatibilidad del entorno.
+- **v1.2**: Actualización de la documentación de despliegue con la ruta oficial `gestion_odon`, repositorio GitHub y guía de clonación.
